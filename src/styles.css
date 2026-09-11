@@ -60,6 +60,7 @@ a {
 
 .app-root {
     width: 100%;
+    max-width: 100%;
     overflow-x: clip;
 }
 
@@ -846,7 +847,7 @@ a {
 
 .footer-body {
     background-color: var(--purple-primary);
-    padding-block: clamp(40px, 8vw, 70px);
+    padding-block: clamp(40px, 7vw, 40px);
 }
 
 .footer-grid {
